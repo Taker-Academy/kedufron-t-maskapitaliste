@@ -20,7 +20,8 @@ h1 {
 h2 {
   font-family: sans-serif;
   font-size: 100%;
-  margin-left: 2%;
+  text-align: center; 
+  text-decoration: underline;
   color: #000000;
 }
 h3 {
@@ -73,9 +74,22 @@ footer li {
   margin-right: 10px;
 }
 .greyplane {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
   border-radius: 20px 20px 20px 20px;
   background-color: #ada5a5;
-  width: 100%;
-  vertical-align: top;
+  width: 100%; 
+}
+.item {
+  text-align: center; 
+  border: 2px solid #000000; 
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 10px; 
+  margin-bottom: 1%;
+  margin-top: 1%; 
+}
+.item img {
+  width: 10%;
 }
